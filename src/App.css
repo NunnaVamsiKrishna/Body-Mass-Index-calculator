@@ -1,0 +1,55 @@
+body{
+  background-color: cornflowerblue;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+  margin: 0 auto;
+  width: 500px; 
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  text-align: center;
+  -webkit-box-shadow:0 0 20px rgb(0, 0, 0); 
+-moz-box-shadow: 0 0 20px rgb(0, 0, 0); 
+box-shadow:0 0 20px   rgb(0, 0, 0);
+}
+input[type=text] {
+  background-color: black;
+  color: #fff;
+  font-size: x-large;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  
+}
+input[type="radio"] {
+  /* Add if not using autoprefixer */
+  
+  background-color: #fff;
+  /* Not removed via appearance */
+  margin: 10;
+}
+label{
+  color: cornflowerblue;
+  font-weight: bold;
+  margin: 10px;
+}
+.rdiv{
+  padding: 10px;
+  font-size: x-large;
+}
+button{
+  background-color: coral;
+  padding: 15px 40px;
+  margin: 20PX;
+  border-width: 3px;
+  font-size: x-large;
+}
+h2{
+  font-size: 50px;
+}
+p{
+  text-align: right;
+}
